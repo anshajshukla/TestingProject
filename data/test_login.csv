@@ -1,0 +1,7 @@
+scenario,username,password,expected_result,error_message
+valid_login,testuser,Test@123,success,
+empty_username,,Test@123,error,Username and password are required
+empty_password,testuser,,error,Username and password are required
+invalid_credentials,wronguser,wrongpass,error,Invalid credentials
+sql_injection,admin' OR '1'='1,anything,error,Invalid credentials
+special_chars,test@#$%^&*,Test@123,error,Invalid credentials
