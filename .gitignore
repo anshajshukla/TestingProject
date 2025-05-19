@@ -1,0 +1,29 @@
+# Ignore documentation only
+/docs/
+/docs/**
+
+# VSCode, Python, and system files
+.vscode/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.log
+*.sqlite3
+*.env
+.DS_Store
+
+# Do NOT ignore any code, dashboard, utils, tests, data, reports, .github, or config files
+!dashboard/**
+!utils/**
+!tests/**
+!data/**
+!reports/**
+!.github/**
+!pages/**
+!performance/**
+!conftest.py
+!requirements.txt
+!pytest.ini
+!run_tests.py
+!start_dashboard.bat
+!README.md

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Test Framework - ML Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-bank me-2"></i>Banking Test Framework
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#dashboard">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#data-generation">Data Generation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anomaly-detection">Anomaly Detection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#test-prioritization">Test Prioritization</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0" id="dashboard">ML-Powered Testing Dashboard</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="lead">
+                            This dashboard provides access to the AI/ML capabilities of the Banking Test Framework.
+                            Use these tools to enhance your testing with machine learning.
+                        </p>
+                        
+                        <div class="row mt-4">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <i class="bi bi-database-fill-gear text-primary" style="font-size: 3rem;"></i>
+                                        <h5 class="card-title mt-3">Data Generation</h5>
+                                        <p class="card-text">Create realistic banking test data using ML-powered generation</p>
+                                        <a href="#data-generation" class="btn btn-outline-primary">Use Tool</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <i class="bi bi-search-heart text-danger" style="font-size: 3rem;"></i>
+                                        <h5 class="card-title mt-3">Anomaly Detection</h5>
+                                        <p class="card-text">Detect unusual patterns in API responses and transactions</p>
+                                        <a href="#anomaly-detection" class="btn btn-outline-primary">Use Tool</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <i class="bi bi-list-ol text-success" style="font-size: 3rem;"></i>
+                                        <h5 class="card-title mt-3">Test Prioritization</h5>
+                                        <p class="card-text">Prioritize tests based on historical failure patterns</p>
+                                        <a href="#test-prioritization" class="btn btn-outline-primary">Use Tool</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Generation Section -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0" id="data-generation">ML-Powered Data Generation</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Generate realistic banking test data with built-in anomalies for testing purposes.</p>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form id="data-generation-form" class="mb-4">
+                                    <div class="mb-3">
+                                        <label for="num-accounts" class="form-label">Number of Accounts</label>
+                                        <input type="number" class="form-control" id="num-accounts" min="1" max="20" value="5">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="transactions-per-day" class="form-label">Avg. Transactions Per Day</label>
+                                        <input type="number" class="form-control" id="transactions-per-day" min="1" max="50" value="5">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="num-days" class="form-label">Number of Days</label>
+                                        <input type="number" class="form-control" id="num-days" min="1" max="90" value="30">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="bi bi-gear-fill me-2"></i>Generate Data
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h6 class="card-title">How It Works</h6>
+                                        <ul>
+                                            <li>Uses statistical models to generate realistic transaction patterns</li>
+                                            <li>Creates accounts with appropriate balances and transaction history</li>
+                                            <li>Embeds anomalous transactions for fraud detection testing</li>
+                                            <li>Follows typical temporal patterns of banking activity</li>
+                                            <li>Generates category-specific transaction amounts and descriptions</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="data-generation-results" class="mt-4" style="display: none;">
+                            <h5 class="border-bottom pb-2">Generation Results</h5>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card bg-light">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Statistics</h6>
+                                            <table class="table table-sm">
+                                                <tr>
+                                                    <th>Accounts:</th>
+                                                    <td id="stat-accounts">-</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Transactions:</th>
+                                                    <td id="stat-transactions">-</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Anomalies:</th>
+                                                    <td id="stat-anomalies">-</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Total Value:</th>
+                                                    <td id="stat-value">-</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Avg Transaction:</th>
+                                                    <td id="stat-avg-transaction">-</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="alert alert-success" id="data-generation-message"></div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Data File:</label>
+                                        <input type="text" class="form-control" id="data-filename" readonly>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <h6>Transactions by Category</h6>
+                                    <img id="viz-category-amounts" class="img-fluid border" src="" alt="Category visualization">
+                                </div>
+                                <div class="col-md-6">
+                                    <h6>Transaction Timeline</h6>
+                                    <img id="viz-timeline" class="img-fluid border" src="" alt="Timeline visualization">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Anomaly Detection Section -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0" id="anomaly-detection">ML-Powered Anomaly Detection</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Detect unusual patterns in API response times or transaction data using machine learning.</p>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form id="anomaly-detection-form" class="mb-4">
+                                    <div class="mb-3">
+                                        <label for="data-type" class="form-label">Data Type</label>
+                                        <select class="form-select" id="data-type">
+                                            <option value="response_times">API Response Times</option>
+                                            <option value="transactions">Banking Transactions</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="data-file" class="form-label">Data File (Optional)</label>
+                                        <select class="form-select" id="data-file">
+                                            <option value="">Generate sample data</option>
+                                            <!-- Will be populated by API -->
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="bi bi-search me-2"></i>Detect Anomalies
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h6 class="card-title">How It Works</h6>
+                                        <ul>
+                                            <li>Uses the Isolation Forest algorithm to identify outliers</li>
+                                            <li>For API responses: Detects unusually slow or fast responses</li>
+                                            <li>For transactions: Identifies unusual amounts, frequencies, or patterns</li>
+                                            <li>Provides visual representation of detected anomalies</li>
+                                            <li>Can help identify potential performance issues or fraud</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="anomaly-detection-results" class="mt-4" style="display: none;">
+                            <h5 class="border-bottom pb-2">Detection Results</h5>
+                            <div class="alert alert-info" id="anomaly-message"></div>
+                            
+                            <div class="mt-3">
+                                <h6>Visualization</h6>
+                                <img id="anomaly-visualization" class="img-fluid border" src="" alt="Anomaly visualization">
+                            </div>
+                            
+                            <div class="mt-3" id="anomaly-details">
+                                <h6>Detected Anomalies</h6>
+                                <div class="table-responsive">
+                                    <table class="table table-sm table-striped" id="anomaly-table">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Value</th>
+                                                <th>Details</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- Will be populated by JavaScript -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Test Prioritization Section -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0" id="test-prioritization">ML-Powered Test Prioritization</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Prioritize your test execution based on historical failure patterns to find bugs faster.</p>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form id="test-prioritization-form" class="mb-4">
+                                    <div class="mb-3">
+                                        <label for="test-list" class="form-label">Tests to Prioritize</label>
+                                        <textarea class="form-control" id="test-list" rows="8" placeholder="Enter test paths, one per line.
+Example:
+tests/ui/test_login.py::test_valid_login
+tests/api/test_auth.py::test_login_success"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="bi bi-sort-numeric-down me-2"></i>Prioritize Tests
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h6 class="card-title">How It Works</h6>
+                                        <ul>
+                                            <li>Analyzes historical test execution data to identify patterns</li>
+                                            <li>Uses a Random Forest classifier to predict test failure probability</li>
+                                            <li>Considers factors like test module, execution time, time of day</li>
+                                            <li>Sorts tests by likelihood of failure (highest first)</li>
+                                            <li>Helps focus testing efforts on areas most likely to have issues</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="test-prioritization-results" class="mt-4" style="display: none;">
+                            <h5 class="border-bottom pb-2">Prioritization Results</h5>
+                            <div class="alert alert-success" id="prioritization-message"></div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h6>Prioritized Tests</h6>
+                                    <ol id="prioritized-tests" class="list-group list-group-flush list-group-numbered">
+                                        <!-- Will be populated by JavaScript -->
+                                    </ol>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6>Failure Rate Visualization</h6>
+                                    <img id="failure-rate-viz" class="img-fluid border" src="" alt="Failure rate visualization">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-3 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">Banking Test Framework - ML Dashboard</p>
+            <small class="text-muted">Powered by scikit-learn, pandas, and Flask</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+</html>

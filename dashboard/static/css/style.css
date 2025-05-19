@@ -1,0 +1,75 @@
+/* Dashboard Styles for Banking Test Framework */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+}
+
+/* Dashboard icons */
+.bi {
+    margin-right: 0.5rem;
+}
+
+/* Navigation styling */
+.navbar {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+/* Results section styling */
+#data-generation-results,
+#anomaly-detection-results,
+#test-prioritization-results {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.035);
+}
+
+/* Visualizations */
+img.img-fluid {
+    max-height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* List styling */
+.list-group-item {
+    padding: 0.5rem 1rem;
+    font-family: "Courier New", monospace;
+    font-size: 0.9rem;
+}
+
+/* Form controls */
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Table styling */
+.table-responsive {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Footer styling */
+footer {
+    border-top: 1px solid #eee;
+}

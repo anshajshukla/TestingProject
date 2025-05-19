@@ -1,0 +1,63 @@
+{
+  "accounts": [
+    {
+      "account_id": "12345678",
+      "account_type": "Checking",
+      "balance": 5000.00,
+      "currency": "USD",
+      "owner_id": "user123"
+    },
+    {
+      "account_id": "87654321",
+      "account_type": "Savings",
+      "balance": 10000.00,
+      "currency": "USD",
+      "owner_id": "user123"
+    },
+    {
+      "account_id": "56781234",
+      "account_type": "Credit Card",
+      "balance": -500.00,
+      "currency": "USD",
+      "owner_id": "user123",
+      "credit_limit": 5000.00
+    }
+  ],
+  "transfer_scenarios": [
+    {
+      "name": "valid_transfer",
+      "from_account": "12345678",
+      "to_account": "87654321",
+      "amount": 100.00,
+      "description": "Test transfer",
+      "expected_result": "success"
+    },
+    {
+      "name": "invalid_amount",
+      "from_account": "12345678",
+      "to_account": "87654321",
+      "amount": -50.00,
+      "description": "Negative amount",
+      "expected_result": "error",
+      "error_message": "Amount must be positive"
+    },
+    {
+      "name": "insufficient_funds",
+      "from_account": "12345678",
+      "to_account": "87654321",
+      "amount": 10000.00,
+      "description": "Too large amount",
+      "expected_result": "error",
+      "error_message": "Insufficient funds"
+    },
+    {
+      "name": "same_account",
+      "from_account": "12345678",
+      "to_account": "12345678",
+      "amount": 100.00,
+      "description": "Same account",
+      "expected_result": "error",
+      "error_message": "Cannot transfer to the same account"
+    }
+  ]
+}

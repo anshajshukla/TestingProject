@@ -1,0 +1,1431 @@
+{
+  "accounts": [
+    {
+      "account_id": "24942603",
+      "account_type": "Credit Card",
+      "balance": -351.33,
+      "currency": "USD",
+      "owner_id": "user125",
+      "credit_limit": 702.66
+    },
+    {
+      "account_id": "46913810",
+      "account_type": "Credit Card",
+      "balance": -1850.16,
+      "currency": "USD",
+      "owner_id": "user350",
+      "credit_limit": 3700.32
+    },
+    {
+      "account_id": "28728463",
+      "account_type": "Checking",
+      "balance": 2358.65,
+      "currency": "USD",
+      "owner_id": "user854"
+    },
+    {
+      "account_id": "83197857",
+      "account_type": "Checking",
+      "balance": 2358.69,
+      "currency": "USD",
+      "owner_id": "user189"
+    },
+    {
+      "account_id": "66629388",
+      "account_type": "Credit Card",
+      "balance": -869.08,
+      "currency": "USD",
+      "owner_id": "user132",
+      "credit_limit": 1738.16
+    }
+  ],
+  "transactions": [
+    {
+      "transaction_id": "T8038374",
+      "from_account": "24942603",
+      "to_account": "28728463",
+      "amount": 108.21,
+      "category": "Dining",
+      "timestamp": "2025-04-18T03:13:14.947786",
+      "status": "completed",
+      "description": "Dining - Fast Food"
+    },
+    {
+      "transaction_id": "T7022674",
+      "from_account": "83197857",
+      "to_account": "24942603",
+      "amount": 83.19,
+      "category": "Groceries",
+      "timestamp": "2025-04-18T08:48:21.947786",
+      "status": "completed",
+      "description": "Groceries - Grocery Delivery"
+    },
+    {
+      "transaction_id": "T6708456",
+      "from_account": "46913810",
+      "to_account": "66629388",
+      "amount": 206.23,
+      "category": "Healthcare",
+      "timestamp": "2025-04-18T13:17:51.947786",
+      "status": "completed",
+      "description": "Healthcare - Medical Test"
+    },
+    {
+      "transaction_id": "T7350753",
+      "from_account": "66629388",
+      "to_account": "24942603",
+      "amount": 186.22,
+      "category": "Utilities",
+      "timestamp": "2025-04-18T15:51:02.947786",
+      "status": "completed",
+      "description": "Utilities - Electricity Bill"
+    },
+    {
+      "transaction_id": "T2166941",
+      "from_account": "28728463",
+      "to_account": "46913810",
+      "amount": 23.22,
+      "category": "Entertainment",
+      "timestamp": "2025-04-19T14:53:40.947786",
+      "status": "completed",
+      "description": "Entertainment - Movies"
+    },
+    {
+      "transaction_id": "T5479144",
+      "from_account": "28728463",
+      "to_account": "46913810",
+      "amount": 122.86,
+      "category": "Groceries",
+      "timestamp": "2025-04-20T13:53:23.947786",
+      "status": "completed",
+      "description": "Groceries - Supermarket"
+    },
+    {
+      "transaction_id": "T7366205",
+      "from_account": "46913810",
+      "to_account": "66629388",
+      "amount": 104.79,
+      "category": "Utilities",
+      "timestamp": "2025-04-20T15:10:34.947786",
+      "status": "completed",
+      "description": "Utilities - Internet Service"
+    },
+    {
+      "transaction_id": "T7377459",
+      "from_account": "46913810",
+      "to_account": "24942603",
+      "amount": 61.77,
+      "category": "Miscellaneous",
+      "timestamp": "2025-04-20T16:49:18.947786",
+      "status": "completed",
+      "description": "Miscellaneous - Service Charge"
+    },
+    {
+      "transaction_id": "T4567281",
+      "from_account": "66629388",
+      "to_account": "28728463",
+      "amount": 93.79,
+      "category": "Groceries",
+      "timestamp": "2025-04-21T18:25:17.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T4842788",
+      "from_account": "28728463",
+      "to_account": "24942603",
+      "amount": 100,
+      "category": "Entertainment",
+      "timestamp": "2025-04-21T23:40:44.947786",
+      "status": "completed",
+      "description": "Entertainment - Movies"
+    },
+    {
+      "transaction_id": "T2065818",
+      "from_account": "46913810",
+      "to_account": "66629388",
+      "amount": 110.99,
+      "category": "Groceries",
+      "timestamp": "2025-04-22T07:03:55.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T2921859",
+      "from_account": "66629388",
+      "to_account": "24942603",
+      "amount": 144.82,
+      "category": "Shopping",
+      "timestamp": "2025-04-22T12:29:33.947786",
+      "status": "completed",
+      "description": "Shopping - Electronics"
+    },
+    {
+      "transaction_id": "T5137722",
+      "from_account": "28728463",
+      "to_account": "46913810",
+      "amount": 40.46,
+      "category": "Dining",
+      "timestamp": "2025-04-22T12:58:41.947786",
+      "status": "completed",
+      "description": "Dining - Coffee Shop"
+    },
+    {
+      "transaction_id": "T1054447",
+      "from_account": "46913810",
+      "to_account": "66629388",
+      "amount": 310.71,
+      "category": "Shopping",
+      "timestamp": "2025-04-22T18:21:07.947786",
+      "status": "completed",
+      "description": "Shopping - Electronics"
+    },
+    {
+      "transaction_id": "T3320821",
+      "from_account": "28728463",
+      "to_account": "46913810",
+      "amount": 41.89,
+      "category": "Entertainment",
+      "timestamp": "2025-04-22T18:27:57.947786",
+      "status": "completed",
+      "description": "Entertainment - Game Purchase"
+    },
+    {
+      "transaction_id": "T1971823",
+      "from_account": "28728463",
+      "to_account": "46913810",
+      "amount": 500,
+      "category": "Healthcare",
+      "timestamp": "2025-04-23T02:59:23.947786",
+      "status": "completed",
+      "description": "Healthcare - Doctor Visit"
+    },
+    {
+      "transaction_id": "T6438436",
+      "from_account": "66629388",
+      "to_account": "24942603",
+      "amount": 61.07,
+      "category": "Dining",
+      "timestamp": "2025-04-23T08:48:10.947786",
+      "status": "completed",
+      "description": "Dining - Food Delivery"
+    },
+    {
+      "transaction_id": "T9517169",
+      "from_account": "24942603",
+      "to_account": "83197857",
+      "amount": 71.3,
+      "category": "Dining",
+      "timestamp": "2025-04-23T22:48:11.947786",
+      "status": "completed",
+      "description": "Dining - Fast Food"
+    },
+    {
+      "transaction_id": "T1120642",
+      "from_account": "46913810",
+      "to_account": "28728463",
+      "amount": 61.05,
+      "category": "Entertainment",
+      "timestamp": "2025-04-24T09:21:01.947786",
+      "status": "completed",
+      "description": "Entertainment - Movies"
+    },
+    {
+      "transaction_id": "T3030113",
+      "from_account": "83197857",
+      "to_account": "66629388",
+      "amount": 29.87,
+      "category": "Entertainment",
+      "timestamp": "2025-04-24T17:25:42.947786",
+      "status": "completed",
+      "description": "Entertainment - Streaming Service"
+    },
+    {
+      "transaction_id": "T3154051",
+      "from_account": "24942603",
+      "to_account": "28728463",
+      "amount": 30.94,
+      "category": "Transport",
+      "timestamp": "2025-04-24T20:05:05.947786",
+      "status": "completed",
+      "description": "Transport - Public Transit"
+    },
+    {
+      "transaction_id": "T4553384",
+      "from_account": "66629388",
+      "to_account": "83197857",
+      "amount": 124.47,
+      "category": "Dining",
+      "timestamp": "2025-04-24T21:10:16.947786",
+      "status": "completed",
+      "description": "Dining - Fast Food"
+    },
+    {
+      "transaction_id": "T2188789",
+      "from_account": "24942603",
+      "to_account": "83197857",
+      "amount": 54.05,
+      "category": "Groceries",
+      "timestamp": "2025-04-25T17:03:14.947786",
+      "status": "completed",
+      "description": "Groceries - Food Store"
+    },
+    {
+      "transaction_id": "T2642635",
+      "from_account": "24942603",
+      "to_account": "66629388",
+      "amount": 124.14,
+      "category": "Healthcare",
+      "timestamp": "2025-04-26T09:29:15.947786",
+      "status": "completed",
+      "description": "Healthcare - Pharmacy"
+    },
+    {
+      "transaction_id": "T5076817",
+      "from_account": "66629388",
+      "to_account": "83197857",
+      "amount": 119.35,
+      "category": "Dining",
+      "timestamp": "2025-04-26T10:31:13.947786",
+      "status": "completed",
+      "description": "Dining - Food Delivery"
+    },
+    {
+      "transaction_id": "T7754864",
+      "from_account": "24942603",
+      "to_account": "46913810",
+      "amount": 155.73,
+      "category": "Utilities",
+      "timestamp": "2025-04-26T13:46:03.947786",
+      "status": "completed",
+      "description": "Utilities - Internet Service"
+    },
+    {
+      "transaction_id": "T3351868",
+      "from_account": "66629388",
+      "to_account": "83197857",
+      "amount": 90.32,
+      "category": "Groceries",
+      "timestamp": "2025-04-26T18:06:15.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T8106470",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 114.39,
+      "category": "Groceries",
+      "timestamp": "2025-04-26T18:12:06.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T7358113",
+      "from_account": "24942603",
+      "to_account": "28728463",
+      "amount": 139.96,
+      "category": "Dining",
+      "timestamp": "2025-04-27T13:13:55.947786",
+      "status": "completed",
+      "description": "Dining - Restaurant"
+    },
+    {
+      "transaction_id": "T3790237",
+      "from_account": "24942603",
+      "to_account": "28728463",
+      "amount": 83.4,
+      "category": "Groceries",
+      "timestamp": "2025-04-27T16:34:53.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T8096887",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 62.34,
+      "category": "Transport",
+      "timestamp": "2025-04-27T23:16:59.947786",
+      "status": "completed",
+      "description": "Transport - Public Transit"
+    },
+    {
+      "transaction_id": "T6261415",
+      "from_account": "66629388",
+      "to_account": "24942603",
+      "amount": 1234.71,
+      "category": "Travel",
+      "timestamp": "2025-04-28T08:18:13.947786",
+      "status": "completed",
+      "description": "Travel - Flight Ticket"
+    },
+    {
+      "transaction_id": "T1954280",
+      "from_account": "66629388",
+      "to_account": "46913810",
+      "amount": 374.25,
+      "category": "Education",
+      "timestamp": "2025-04-29T05:30:32.947786",
+      "status": "completed",
+      "description": "Education - Tuition"
+    },
+    {
+      "transaction_id": "T5374922",
+      "from_account": "66629388",
+      "to_account": "28728463",
+      "amount": 175.82,
+      "category": "Groceries",
+      "timestamp": "2025-04-29T15:02:39.947786",
+      "status": "completed",
+      "description": "Groceries - Food Store"
+    },
+    {
+      "transaction_id": "T8670955",
+      "from_account": "46913810",
+      "to_account": "83197857",
+      "amount": 410.21,
+      "category": "Shopping",
+      "timestamp": "2025-04-29T16:20:15.947786",
+      "status": "completed",
+      "description": "Shopping - Electronics"
+    },
+    {
+      "transaction_id": "T3011363",
+      "from_account": "46913810",
+      "to_account": "66629388",
+      "amount": 142.57,
+      "category": "Groceries",
+      "timestamp": "2025-04-29T19:04:38.947786",
+      "status": "completed",
+      "description": "Groceries - Food Store"
+    },
+    {
+      "transaction_id": "T6022741",
+      "from_account": "66629388",
+      "to_account": "24942603",
+      "amount": 268.73,
+      "category": "Utilities",
+      "timestamp": "2025-04-30T08:53:34.947786",
+      "status": "completed",
+      "description": "Utilities - Electricity Bill"
+    },
+    {
+      "transaction_id": "T7199635",
+      "from_account": "24942603",
+      "to_account": "28728463",
+      "amount": 303.89,
+      "category": "Shopping",
+      "timestamp": "2025-04-30T13:08:59.947786",
+      "status": "completed",
+      "description": "Shopping - Electronics"
+    },
+    {
+      "transaction_id": "T2229110",
+      "from_account": "66629388",
+      "to_account": "24942603",
+      "amount": 89.96,
+      "category": "Groceries",
+      "timestamp": "2025-04-30T21:59:04.947786",
+      "status": "completed",
+      "description": "Groceries - Food Store"
+    },
+    {
+      "transaction_id": "T3194789",
+      "from_account": "24942603",
+      "to_account": "83197857",
+      "amount": 141.59,
+      "category": "Shopping",
+      "timestamp": "2025-05-01T07:27:53.947786",
+      "status": "completed",
+      "description": "Shopping - Electronics"
+    },
+    {
+      "transaction_id": "T2876932",
+      "from_account": "66629388",
+      "to_account": "24942603",
+      "amount": 247.7,
+      "category": "Utilities",
+      "timestamp": "2025-05-01T08:28:35.947786",
+      "status": "completed",
+      "description": "Utilities - Electricity Bill"
+    },
+    {
+      "transaction_id": "T5213115",
+      "from_account": "28728463",
+      "to_account": "66629388",
+      "amount": 60.39,
+      "category": "Groceries",
+      "timestamp": "2025-05-01T15:45:21.947786",
+      "status": "completed",
+      "description": "Groceries - Supermarket"
+    },
+    {
+      "transaction_id": "T5569244",
+      "from_account": "24942603",
+      "to_account": "28728463",
+      "amount": 95.69,
+      "category": "Groceries",
+      "timestamp": "2025-05-01T21:08:16.947786",
+      "status": "completed",
+      "description": "Groceries - Grocery Delivery"
+    },
+    {
+      "transaction_id": "T4524499",
+      "from_account": "24942603",
+      "to_account": "83197857",
+      "amount": 429.43,
+      "category": "Healthcare",
+      "timestamp": "2025-05-02T08:19:23.947786",
+      "status": "completed",
+      "description": "Healthcare - Doctor Visit"
+    },
+    {
+      "transaction_id": "T5682940",
+      "from_account": "28728463",
+      "to_account": "24942603",
+      "amount": 252.93,
+      "category": "Shopping",
+      "timestamp": "2025-05-02T09:42:12.947786",
+      "status": "completed",
+      "description": "Shopping - Electronics"
+    },
+    {
+      "transaction_id": "T4971793",
+      "from_account": "83197857",
+      "to_account": "46913810",
+      "amount": 65.9,
+      "category": "Entertainment",
+      "timestamp": "2025-05-02T16:22:49.947786",
+      "status": "completed",
+      "description": "Entertainment - Streaming Service"
+    },
+    {
+      "transaction_id": "T2813543",
+      "from_account": "28728463",
+      "to_account": "46913810",
+      "amount": 62.9,
+      "category": "Transport",
+      "timestamp": "2025-05-02T18:55:47.947786",
+      "status": "completed",
+      "description": "Transport - Public Transit"
+    },
+    {
+      "transaction_id": "T6120253",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 200,
+      "category": "Groceries",
+      "timestamp": "2025-05-02T20:54:30.947786",
+      "status": "completed",
+      "description": "Groceries - Food Store"
+    },
+    {
+      "transaction_id": "T3484601",
+      "from_account": "24942603",
+      "to_account": "83197857",
+      "amount": 101.29,
+      "category": "Groceries",
+      "timestamp": "2025-05-02T21:44:57.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T6573147",
+      "from_account": "24942603",
+      "to_account": "28728463",
+      "amount": 188.32,
+      "category": "Healthcare",
+      "timestamp": "2025-05-02T22:51:11.947786",
+      "status": "completed",
+      "description": "Healthcare - Insurance"
+    },
+    {
+      "transaction_id": "T6038571",
+      "from_account": "28728463",
+      "to_account": "24942603",
+      "amount": 269.59,
+      "category": "Shopping",
+      "timestamp": "2025-05-03T06:42:58.947786",
+      "status": "completed",
+      "description": "Shopping - Electronics"
+    },
+    {
+      "transaction_id": "T7110622",
+      "from_account": "66629388",
+      "to_account": "46913810",
+      "amount": 90.42,
+      "category": "Groceries",
+      "timestamp": "2025-05-03T10:45:27.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T8801207",
+      "from_account": "66629388",
+      "to_account": "28728463",
+      "amount": 62.76,
+      "category": "Transport",
+      "timestamp": "2025-05-03T11:13:27.947786",
+      "status": "completed",
+      "description": "Transport - Public Transit"
+    },
+    {
+      "transaction_id": "T7462506",
+      "from_account": "66629388",
+      "to_account": "24942603",
+      "amount": 86.17,
+      "category": "Dining",
+      "timestamp": "2025-05-03T11:50:20.947786",
+      "status": "completed",
+      "description": "Dining - Fast Food"
+    },
+    {
+      "transaction_id": "T4218542",
+      "from_account": "66629388",
+      "to_account": "46913810",
+      "amount": 61.08,
+      "category": "Utilities",
+      "timestamp": "2025-05-03T16:20:25.947786",
+      "status": "completed",
+      "description": "Utilities - Phone Bill"
+    },
+    {
+      "transaction_id": "T7812810",
+      "from_account": "46913810",
+      "to_account": "83197857",
+      "amount": 47.04,
+      "category": "Transport",
+      "timestamp": "2025-05-03T16:24:43.947786",
+      "status": "completed",
+      "description": "Transport - Ride Share"
+    },
+    {
+      "transaction_id": "T1463060",
+      "from_account": "66629388",
+      "to_account": "28728463",
+      "amount": 27.66,
+      "category": "Miscellaneous",
+      "timestamp": "2025-05-03T16:25:43.947786",
+      "status": "completed",
+      "description": "Miscellaneous - Subscription"
+    },
+    {
+      "transaction_id": "T2818692",
+      "from_account": "28728463",
+      "to_account": "24942603",
+      "amount": 82.95,
+      "category": "Entertainment",
+      "timestamp": "2025-05-03T20:16:11.947786",
+      "status": "completed",
+      "description": "Entertainment - Game Purchase"
+    },
+    {
+      "transaction_id": "T7953166",
+      "from_account": "24942603",
+      "to_account": "66629388",
+      "amount": 40.85,
+      "category": "Transport",
+      "timestamp": "2025-05-04T05:30:39.947786",
+      "status": "completed",
+      "description": "Transport - Fuel"
+    },
+    {
+      "transaction_id": "T3472189",
+      "from_account": "46913810",
+      "to_account": "28728463",
+      "amount": 110.13,
+      "category": "Utilities",
+      "timestamp": "2025-05-04T07:48:15.947786",
+      "status": "completed",
+      "description": "Utilities - Electricity Bill"
+    },
+    {
+      "transaction_id": "T8425149",
+      "from_account": "66629388",
+      "to_account": "28728463",
+      "amount": 63.3,
+      "category": "Dining",
+      "timestamp": "2025-05-04T08:29:42.947786",
+      "status": "completed",
+      "description": "Dining - Food Delivery"
+    },
+    {
+      "transaction_id": "T3036059",
+      "from_account": "24942603",
+      "to_account": "28728463",
+      "amount": 97.24,
+      "category": "Dining",
+      "timestamp": "2025-05-04T09:51:44.947786",
+      "status": "completed",
+      "description": "Dining - Food Delivery"
+    },
+    {
+      "transaction_id": "T5761145",
+      "from_account": "46913810",
+      "to_account": "24942603",
+      "amount": 63.67,
+      "category": "Dining",
+      "timestamp": "2025-05-04T12:13:32.947786",
+      "status": "completed",
+      "description": "Dining - Coffee Shop"
+    },
+    {
+      "transaction_id": "T2788238",
+      "from_account": "46913810",
+      "to_account": "24942603",
+      "amount": 406.96,
+      "category": "Shopping",
+      "timestamp": "2025-05-04T17:24:31.947786",
+      "status": "completed",
+      "description": "Shopping - Clothing Store"
+    },
+    {
+      "transaction_id": "T5348512",
+      "from_account": "83197857",
+      "to_account": "66629388",
+      "amount": 336.07,
+      "category": "Healthcare",
+      "timestamp": "2025-05-04T19:35:28.947786",
+      "status": "completed",
+      "description": "Healthcare - Doctor Visit"
+    },
+    {
+      "transaction_id": "T3321531",
+      "from_account": "28728463",
+      "to_account": "24942603",
+      "amount": 181.27,
+      "category": "Shopping",
+      "timestamp": "2025-05-05T06:18:15.947786",
+      "status": "completed",
+      "description": "Shopping - Department Store"
+    },
+    {
+      "transaction_id": "T7838382",
+      "from_account": "24942603",
+      "to_account": "66629388",
+      "amount": 140.07,
+      "category": "Utilities",
+      "timestamp": "2025-05-05T09:44:09.947786",
+      "status": "completed",
+      "description": "Utilities - Internet Service"
+    },
+    {
+      "transaction_id": "T9191131",
+      "from_account": "83197857",
+      "to_account": "46913810",
+      "amount": 25.26,
+      "category": "Transport",
+      "timestamp": "2025-05-05T13:22:19.947786",
+      "status": "completed",
+      "description": "Transport - Fuel"
+    },
+    {
+      "transaction_id": "T1327691",
+      "from_account": "83197857",
+      "to_account": "66629388",
+      "amount": 86.31,
+      "category": "Groceries",
+      "timestamp": "2025-05-05T14:26:03.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T5606980",
+      "from_account": "83197857",
+      "to_account": "46913810",
+      "amount": 85.21,
+      "category": "Transport",
+      "timestamp": "2025-05-05T19:17:49.947786",
+      "status": "completed",
+      "description": "Transport - Public Transit"
+    },
+    {
+      "transaction_id": "T2151225",
+      "from_account": "28728463",
+      "to_account": "46913810",
+      "amount": 83.06,
+      "category": "Miscellaneous",
+      "timestamp": "2025-05-06T02:34:03.947786",
+      "status": "completed",
+      "description": "Miscellaneous - Subscription"
+    },
+    {
+      "transaction_id": "T4551070",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 93.38,
+      "category": "Groceries",
+      "timestamp": "2025-05-06T08:29:11.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T8841505",
+      "from_account": "83197857",
+      "to_account": "46913810",
+      "amount": 293.4,
+      "category": "Shopping",
+      "timestamp": "2025-05-06T10:31:01.947786",
+      "status": "completed",
+      "description": "Shopping - Department Store"
+    },
+    {
+      "transaction_id": "T2374158",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 126.89,
+      "category": "Shopping",
+      "timestamp": "2025-05-06T11:48:56.947786",
+      "status": "completed",
+      "description": "Shopping - Clothing Store"
+    },
+    {
+      "transaction_id": "T2408404",
+      "from_account": "66629388",
+      "to_account": "24942603",
+      "amount": 526.34,
+      "category": "Education",
+      "timestamp": "2025-05-06T22:34:01.947786",
+      "status": "completed",
+      "description": "Education - School Supplies"
+    },
+    {
+      "transaction_id": "T7189034",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 968.65,
+      "category": "Travel",
+      "timestamp": "2025-05-07T13:07:36.947786",
+      "status": "completed",
+      "description": "Travel - Hotel Booking"
+    },
+    {
+      "transaction_id": "T2813596",
+      "from_account": "46913810",
+      "to_account": "83197857",
+      "amount": 128.51,
+      "category": "Groceries",
+      "timestamp": "2025-05-07T15:47:45.947786",
+      "status": "completed",
+      "description": "Groceries - Supermarket"
+    },
+    {
+      "transaction_id": "T5002120",
+      "from_account": "66629388",
+      "to_account": "46913810",
+      "amount": 35.15,
+      "category": "Transport",
+      "timestamp": "2025-05-07T18:15:12.947786",
+      "status": "completed",
+      "description": "Transport - Fuel"
+    },
+    {
+      "transaction_id": "T4327421",
+      "from_account": "83197857",
+      "to_account": "66629388",
+      "amount": 1000,
+      "category": "Education",
+      "timestamp": "2025-05-07T21:36:43.947786",
+      "status": "completed",
+      "description": "Education - Tuition"
+    },
+    {
+      "transaction_id": "T8306261",
+      "from_account": "83197857",
+      "to_account": "46913810",
+      "amount": 99.61,
+      "category": "Healthcare",
+      "timestamp": "2025-05-08T07:23:40.947786",
+      "status": "completed",
+      "description": "Healthcare - Doctor Visit"
+    },
+    {
+      "transaction_id": "T8047416",
+      "from_account": "28728463",
+      "to_account": "24942603",
+      "amount": 101.16,
+      "category": "Groceries",
+      "timestamp": "2025-05-08T14:42:23.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T1689025",
+      "from_account": "28728463",
+      "to_account": "24942603",
+      "amount": 119.43,
+      "category": "Groceries",
+      "timestamp": "2025-05-08T15:53:40.947786",
+      "status": "completed",
+      "description": "Groceries - Grocery Delivery"
+    },
+    {
+      "transaction_id": "T8799287",
+      "from_account": "66629388",
+      "to_account": "83197857",
+      "amount": 54.28,
+      "category": "Entertainment",
+      "timestamp": "2025-05-08T17:41:17.947786",
+      "status": "completed",
+      "description": "Entertainment - Game Purchase"
+    },
+    {
+      "transaction_id": "T5679639",
+      "from_account": "46913810",
+      "to_account": "24942603",
+      "amount": 265.37,
+      "category": "Shopping",
+      "timestamp": "2025-05-08T19:37:17.947786",
+      "status": "completed",
+      "description": "Shopping - Clothing Store"
+    },
+    {
+      "transaction_id": "T9123504",
+      "from_account": "46913810",
+      "to_account": "28728463",
+      "amount": 245.05,
+      "category": "Utilities",
+      "timestamp": "2025-05-09T07:34:48.947786",
+      "status": "completed",
+      "description": "Utilities - Internet Service"
+    },
+    {
+      "transaction_id": "T1481506",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 49.96,
+      "category": "Entertainment",
+      "timestamp": "2025-05-09T10:29:36.947786",
+      "status": "completed",
+      "description": "Entertainment - Game Purchase"
+    },
+    {
+      "transaction_id": "T1763626",
+      "from_account": "46913810",
+      "to_account": "83197857",
+      "amount": 300,
+      "category": "Utilities",
+      "timestamp": "2025-05-09T11:19:00.947786",
+      "status": "completed",
+      "description": "Utilities - Electricity Bill"
+    },
+    {
+      "transaction_id": "T4231028",
+      "from_account": "46913810",
+      "to_account": "24942603",
+      "amount": 375.02,
+      "category": "Shopping",
+      "timestamp": "2025-05-09T11:29:17.947786",
+      "status": "completed",
+      "description": "Shopping - Electronics"
+    },
+    {
+      "transaction_id": "T5031966",
+      "from_account": "83197857",
+      "to_account": "66629388",
+      "amount": 103.19,
+      "category": "Groceries",
+      "timestamp": "2025-05-09T14:33:12.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T4717770",
+      "from_account": "24942603",
+      "to_account": "83197857",
+      "amount": 29.27,
+      "category": "Transport",
+      "timestamp": "2025-05-09T16:31:28.947786",
+      "status": "completed",
+      "description": "Transport - Public Transit"
+    },
+    {
+      "transaction_id": "T8138769",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 97.39,
+      "category": "Entertainment",
+      "timestamp": "2025-05-09T17:19:42.947786",
+      "status": "completed",
+      "description": "Entertainment - Concert"
+    },
+    {
+      "transaction_id": "T5970190",
+      "from_account": "24942603",
+      "to_account": "28728463",
+      "amount": 34.91,
+      "category": "Entertainment",
+      "timestamp": "2025-05-09T17:48:33.947786",
+      "status": "completed",
+      "description": "Entertainment - Streaming Service"
+    },
+    {
+      "transaction_id": "T5691890",
+      "from_account": "28728463",
+      "to_account": "83197857",
+      "amount": 122.09,
+      "category": "Groceries",
+      "timestamp": "2025-05-09T19:11:31.947786",
+      "status": "completed",
+      "description": "Groceries - Grocery Delivery"
+    },
+    {
+      "transaction_id": "T9014965",
+      "from_account": "24942603",
+      "to_account": "83197857",
+      "amount": 200,
+      "category": "Groceries",
+      "timestamp": "2025-05-10T13:28:21.947786",
+      "status": "completed",
+      "description": "Groceries - Supermarket"
+    },
+    {
+      "transaction_id": "T1205779",
+      "from_account": "83197857",
+      "to_account": "24942603",
+      "amount": 73.76,
+      "category": "Entertainment",
+      "timestamp": "2025-05-10T14:44:08.947786",
+      "status": "completed",
+      "description": "Entertainment - Concert"
+    },
+    {
+      "transaction_id": "T9767312",
+      "from_account": "83197857",
+      "to_account": "46913810",
+      "amount": 57.81,
+      "category": "Entertainment",
+      "timestamp": "2025-05-11T07:15:07.947786",
+      "status": "completed",
+      "description": "Entertainment - Game Purchase"
+    },
+    {
+      "transaction_id": "T2010496",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 202.14,
+      "category": "Healthcare",
+      "timestamp": "2025-05-11T13:28:19.947786",
+      "status": "completed",
+      "description": "Healthcare - Pharmacy"
+    },
+    {
+      "transaction_id": "T3503120",
+      "from_account": "24942603",
+      "to_account": "28728463",
+      "amount": 79.11,
+      "category": "Groceries",
+      "timestamp": "2025-05-11T19:25:31.947786",
+      "status": "completed",
+      "description": "Groceries - Grocery Delivery"
+    },
+    {
+      "transaction_id": "T5024269",
+      "from_account": "24942603",
+      "to_account": "28728463",
+      "amount": 108.66,
+      "category": "Groceries",
+      "timestamp": "2025-05-12T21:13:40.947786",
+      "status": "completed",
+      "description": "Groceries - Food Store"
+    },
+    {
+      "transaction_id": "T4916201",
+      "from_account": "83197857",
+      "to_account": "24942603",
+      "amount": 104.19,
+      "category": "Utilities",
+      "timestamp": "2025-05-13T09:45:18.947786",
+      "status": "completed",
+      "description": "Utilities - Internet Service"
+    },
+    {
+      "transaction_id": "T5886520",
+      "from_account": "66629388",
+      "to_account": "83197857",
+      "amount": 104.54,
+      "category": "Dining",
+      "timestamp": "2025-05-13T14:10:00.947786",
+      "status": "completed",
+      "description": "Dining - Restaurant"
+    },
+    {
+      "transaction_id": "T8863447",
+      "from_account": "83197857",
+      "to_account": "24942603",
+      "amount": 788.52,
+      "category": "Education",
+      "timestamp": "2025-05-14T15:52:36.947786",
+      "status": "completed",
+      "description": "Education - Online Course"
+    },
+    {
+      "transaction_id": "T6386463",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 36.93,
+      "category": "Dining",
+      "timestamp": "2025-05-14T16:31:05.947786",
+      "status": "completed",
+      "description": "Dining - Restaurant"
+    },
+    {
+      "transaction_id": "T3783722",
+      "from_account": "24942603",
+      "to_account": "46913810",
+      "amount": 44.69,
+      "category": "Transport",
+      "timestamp": "2025-05-14T16:58:17.947786",
+      "status": "completed",
+      "description": "Transport - Parking"
+    },
+    {
+      "transaction_id": "T1668752",
+      "from_account": "83197857",
+      "to_account": "24942603",
+      "amount": 44.58,
+      "category": "Dining",
+      "timestamp": "2025-05-14T17:17:32.947786",
+      "status": "completed",
+      "description": "Dining - Food Delivery"
+    },
+    {
+      "transaction_id": "T5521644",
+      "from_account": "46913810",
+      "to_account": "24942603",
+      "amount": 117.65,
+      "category": "Groceries",
+      "timestamp": "2025-05-14T17:38:16.947786",
+      "status": "completed",
+      "description": "Groceries - Supermarket"
+    },
+    {
+      "transaction_id": "T4044882",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 150,
+      "category": "Dining",
+      "timestamp": "2025-05-14T18:11:30.947786",
+      "status": "completed",
+      "description": "Dining - Food Delivery"
+    },
+    {
+      "transaction_id": "T2925626",
+      "from_account": "46913810",
+      "to_account": "66629388",
+      "amount": 111.53,
+      "category": "Utilities",
+      "timestamp": "2025-05-14T18:40:37.947786",
+      "status": "completed",
+      "description": "Utilities - Water Bill"
+    },
+    {
+      "transaction_id": "T1615675",
+      "from_account": "28728463",
+      "to_account": "66629388",
+      "amount": 180.96,
+      "category": "Utilities",
+      "timestamp": "2025-05-14T19:21:26.947786",
+      "status": "completed",
+      "description": "Utilities - Phone Bill"
+    },
+    {
+      "transaction_id": "T1865901",
+      "from_account": "83197857",
+      "to_account": "66629388",
+      "amount": 29.63,
+      "category": "Entertainment",
+      "timestamp": "2025-05-15T05:33:23.947786",
+      "status": "completed",
+      "description": "Entertainment - Streaming Service"
+    },
+    {
+      "transaction_id": "T8750676",
+      "from_account": "83197857",
+      "to_account": "24942603",
+      "amount": 155.22,
+      "category": "Groceries",
+      "timestamp": "2025-05-15T07:16:20.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T1484348",
+      "from_account": "83197857",
+      "to_account": "24942603",
+      "amount": 133.06,
+      "category": "Shopping",
+      "timestamp": "2025-05-15T10:08:59.947786",
+      "status": "completed",
+      "description": "Shopping - Department Store"
+    },
+    {
+      "transaction_id": "T9537455",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 60.9,
+      "category": "Transport",
+      "timestamp": "2025-05-15T13:07:41.947786",
+      "status": "completed",
+      "description": "Transport - Parking"
+    },
+    {
+      "transaction_id": "T4769851",
+      "from_account": "83197857",
+      "to_account": "24942603",
+      "amount": 136.31,
+      "category": "Groceries",
+      "timestamp": "2025-05-15T17:19:35.947786",
+      "status": "completed",
+      "description": "Groceries - Supermarket"
+    },
+    {
+      "transaction_id": "T7435505",
+      "from_account": "66629388",
+      "to_account": "46913810",
+      "amount": 124.86,
+      "category": "Groceries",
+      "timestamp": "2025-05-16T12:30:30.947786",
+      "status": "completed",
+      "description": "Groceries - Food Store"
+    },
+    {
+      "transaction_id": "T8639414",
+      "from_account": "66629388",
+      "to_account": "83197857",
+      "amount": 298.14,
+      "category": "Shopping",
+      "timestamp": "2025-05-16T13:30:22.947786",
+      "status": "completed",
+      "description": "Shopping - Electronics"
+    },
+    {
+      "transaction_id": "T1732280",
+      "from_account": "46913810",
+      "to_account": "66629388",
+      "amount": 38.48,
+      "category": "Entertainment",
+      "timestamp": "2025-05-16T19:44:15.947786",
+      "status": "completed",
+      "description": "Entertainment - Concert"
+    },
+    {
+      "transaction_id": "T9214801",
+      "from_account": "28728463",
+      "to_account": "83197857",
+      "amount": 58.96,
+      "category": "Transport",
+      "timestamp": "2025-05-16T21:32:17.947786",
+      "status": "completed",
+      "description": "Transport - Fuel"
+    },
+    {
+      "transaction_id": "T7961578",
+      "from_account": "24942603",
+      "to_account": "83197857",
+      "amount": 185.06,
+      "category": "Healthcare",
+      "timestamp": "2025-05-16T21:32:47.947786",
+      "status": "completed",
+      "description": "Healthcare - Medical Test"
+    },
+    {
+      "transaction_id": "T8876745",
+      "from_account": "46913810",
+      "to_account": "24942603",
+      "amount": 361.03,
+      "category": "Healthcare",
+      "timestamp": "2025-05-17T01:09:26.947786",
+      "status": "completed",
+      "description": "Healthcare - Medical Test"
+    },
+    {
+      "transaction_id": "T3937176",
+      "from_account": "46913810",
+      "to_account": "28728463",
+      "amount": 89.03,
+      "category": "Entertainment",
+      "timestamp": "2025-05-17T08:33:26.947786",
+      "status": "completed",
+      "description": "Entertainment - Movies"
+    },
+    {
+      "transaction_id": "T9823994",
+      "from_account": "83197857",
+      "to_account": "24942603",
+      "amount": 143.31,
+      "category": "Healthcare",
+      "timestamp": "2025-05-17T08:37:21.947786",
+      "status": "completed",
+      "description": "Healthcare - Insurance"
+    },
+    {
+      "transaction_id": "T6312692",
+      "from_account": "28728463",
+      "to_account": "66629388",
+      "amount": 33.78,
+      "category": "Entertainment",
+      "timestamp": "2025-05-17T11:44:25.947786",
+      "status": "completed",
+      "description": "Entertainment - Game Purchase"
+    },
+    {
+      "transaction_id": "T9310235",
+      "from_account": "83197857",
+      "to_account": "46913810",
+      "amount": 66.54,
+      "category": "Transport",
+      "timestamp": "2025-05-17T18:45:58.947786",
+      "status": "completed",
+      "description": "Transport - Ride Share"
+    },
+    {
+      "transaction_id": "T7288789",
+      "from_account": "28728463",
+      "to_account": "83197857",
+      "amount": 34.83,
+      "category": "Transport",
+      "timestamp": "2025-05-17T20:02:20.947786",
+      "status": "completed",
+      "description": "Transport - Public Transit"
+    },
+    {
+      "transaction_id": "T2516313",
+      "from_account": "28728463",
+      "to_account": "46913810",
+      "amount": 155.63,
+      "category": "Groceries",
+      "timestamp": "2025-05-17T20:02:39.947786",
+      "status": "completed",
+      "description": "Groceries - Local Market"
+    },
+    {
+      "transaction_id": "T3791137",
+      "from_account": "24942603",
+      "to_account": "66629388",
+      "amount": 294.49,
+      "category": "Utilities",
+      "timestamp": "2025-05-17T22:48:40.947786",
+      "status": "completed",
+      "description": "Utilities - Internet Service"
+    },
+    {
+      "transaction_id": "T9418719",
+      "from_account": "28728463",
+      "to_account": "46913810",
+      "amount": 1765.28,
+      "category": "Travel",
+      "timestamp": "2025-05-18T03:33:33.953491",
+      "status": "completed",
+      "description": "Travel - Late night transaction",
+      "is_anomaly": true,
+      "anomaly_type": "unusual_time"
+    },
+    {
+      "transaction_id": "T7970985",
+      "from_account": "46913810",
+      "to_account": "46913810",
+      "amount": 456.17,
+      "category": "Shopping",
+      "timestamp": "2025-05-18T03:47:33.953470",
+      "status": "completed",
+      "description": "Shopping - Late night transaction",
+      "is_anomaly": true,
+      "anomaly_type": "unusual_time"
+    },
+    {
+      "transaction_id": "T7022335",
+      "from_account": "46913810",
+      "to_account": "66629388",
+      "amount": 56.6,
+      "category": "Dining",
+      "timestamp": "2025-05-18T09:24:54.947786",
+      "status": "completed",
+      "description": "Dining - Coffee Shop"
+    },
+    {
+      "transaction_id": "T8664433",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 227.77,
+      "category": "Shopping",
+      "timestamp": "2025-05-18T12:22:37.947786",
+      "status": "completed",
+      "description": "Shopping - Electronics"
+    },
+    {
+      "transaction_id": "T5801541",
+      "from_account": "46913810",
+      "to_account": "91478884",
+      "amount": 150.31,
+      "category": "Miscellaneous",
+      "timestamp": "2025-05-18T13:43:33.953404",
+      "status": "completed",
+      "description": "Miscellaneous - Unusual category for this user",
+      "is_anomaly": true,
+      "anomaly_type": "unusual_category"
+    },
+    {
+      "transaction_id": "T5204819",
+      "from_account": "46913810",
+      "to_account": "94322033",
+      "amount": 323.76,
+      "category": "Shopping",
+      "timestamp": "2025-05-18T13:43:33.953432",
+      "status": "completed",
+      "description": "Shopping - Foreign country transaction",
+      "location": "Cambodia",
+      "is_anomaly": true,
+      "anomaly_type": "unusual_location"
+    },
+    {
+      "transaction_id": "T1559763",
+      "from_account": "66629388",
+      "to_account": "58970845",
+      "amount": 5048.75,
+      "category": "Utilities",
+      "timestamp": "2025-05-18T13:43:33.953450",
+      "status": "completed",
+      "description": "Utilities - Anomalous large payment",
+      "is_anomaly": true,
+      "anomaly_type": "large_amount"
+    },
+    {
+      "transaction_id": "T4895475",
+      "from_account": "83197857",
+      "to_account": "46913810",
+      "amount": 248.88,
+      "category": "Utilities",
+      "timestamp": "2025-05-18T15:24:39.947786",
+      "status": "completed",
+      "description": "Utilities - Phone Bill"
+    },
+    {
+      "transaction_id": "T3650391",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 300,
+      "category": "Utilities",
+      "timestamp": "2025-05-18T16:29:16.947786",
+      "status": "completed",
+      "description": "Utilities - Electricity Bill"
+    },
+    {
+      "transaction_id": "T1135861",
+      "from_account": "83197857",
+      "to_account": "28728463",
+      "amount": 673.03,
+      "category": "Travel",
+      "timestamp": "2025-05-18T23:18:01.947786",
+      "status": "completed",
+      "description": "Travel - Flight Ticket"
+    }
+  ],
+  "metadata": {
+    "generated_on": "2025-05-18T13:43:33.953541",
+    "num_accounts": 5,
+    "num_transactions": 137,
+    "num_anomalies": 5
+  }
+}

@@ -1,0 +1,71 @@
+name: Banking Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # Run daily at midnight UTC
+    - cron: '0 0 * * *'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    services:
+      selenium:
+        image: selenium/standalone-chrome:latest
+        ports:
+          - 4444:4444
+          - 7900:7900 # VNC server for debugging
+        options: --shm-size=2g
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Create .env file
+        run: |
+          echo "BASE_URL=${{ secrets.BASE_URL }}" > .env
+          echo "API_URL=${{ secrets.API_URL }}" >> .env
+          echo "USERNAME=${{ secrets.TEST_USERNAME }}" >> .env
+          echo "PASSWORD=${{ secrets.TEST_PASSWORD }}" >> .env
+      
+      - name: Run smoke tests
+        run: |
+          pytest tests/smoke --junitxml=reports/smoke.xml
+      
+      - name: Run API tests
+        run: |
+          pytest tests/api --junitxml=reports/api.xml
+      
+      - name: Run UI tests
+        run: |
+          pytest tests/ui --junitxml=reports/ui.xml
+      
+      - name: Run security tests
+        run: |
+          pytest tests/security --junitxml=reports/security.xml
+      
+      - name: Generate Allure report
+        if: always()
+        run: |
+          pytest --alluredir=reports/allure
+      
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-reports
+          path: reports/
